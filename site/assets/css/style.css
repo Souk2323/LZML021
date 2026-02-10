@@ -1,1 +1,51 @@
+/* Configuration globale (Page 26) */
+html {
+    background-color: #ff85c1; /* Rose comme sur l'exemple visuel */
+    font-size: 14px;            /* Taille imposée par l'exercice */
+    width: 100%;               /* Largeur maximum de la vue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Tailles de police relatives (Page 26) */
+h1 {
+    font-size: 3rem;           /* Augmentation relative */
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5rem;         /* Augmentation relative */
+}
+
+/* Division principale : Bande centrale (Page 26) */
+#page {
+    width: 85%;                 /* Largeur inférieure à 100% */
+    max-width: 800px;
+    margin: 20px auto;          /* Centrage de la division */
+    background-color: white;    /* Fond différent (blanc) */
+    border: 1px solid black;    /* Bordure pleine */
+    padding: 40px;
+    min-height: 90vh;
+}
+
+/* En-tête (Page 26) */
+.entete {
+    text-align: center;         /* Contenu centré */
+    margin-bottom: 40px;
+}
+
+/* Section "About Me" (Page 26) */
+#aboutme {
+    /* Style libre */
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Pied de page (Page 26) */
+footer {
+    text-align: center;         /* Texte centré */
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f0f0f0;  /* Gris clair pour le lien */
+}
 
